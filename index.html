@@ -212,26 +212,26 @@ Get Free Quote
 <a class="whatsapp-float" href="https://wa.me/918767242679">
 💬
 </a>
+<button class="ai-btn" onclick="openAIChat()">
+🤖 AI Assistant
+</button>
+
 <script>
-function sendLead(){
+function openAIChat() {
+let message = `Hello Omkar,
 
-let type=document.getElementById("websiteType").value;
-let budget=document.getElementById("budget").value;
+I need a website.
 
-let message =
-`Hello Omkar,
-
-I need a ${type}
-
-Budget: ${budget}
+Website Type:
+Budget:
+Pages:
 
 Please contact me.`;
 
 window.open(
-"https://wa.me/918767242679?text="+encodeURIComponent(message),
+"https://wa.me/918767242679?text=" + encodeURIComponent(message),
 "_blank"
 );
-
 }
 </script>
 </body>
