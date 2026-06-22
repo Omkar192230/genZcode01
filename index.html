@@ -212,6 +212,27 @@ Get Free Quote
 <a class="whatsapp-float" href="https://wa.me/918767242679">
 💬
 </a>
+<script>
+function sendLead(){
 
+let type=document.getElementById("websiteType").value;
+let budget=document.getElementById("budget").value;
+
+let message =
+`Hello Omkar,
+
+I need a ${type}
+
+Budget: ${budget}
+
+Please contact me.`;
+
+window.open(
+"https://wa.me/918767242679?text="+encodeURIComponent(message),
+"_blank"
+);
+
+}
+</script>
 </body>
 </html>
